@@ -1,5 +1,19 @@
     *{
         font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    body{
+        background-color: black;
+        color: #FFFFFF; /*white*/
+        background: url("../images/pizza.jpg");
+        background-size: cover;
+
+    }
+
+    #navbar{
+        background: rgba(0, 0, 0, 0.5)
     }
 
     h1{
@@ -10,3 +24,32 @@
         font-weight: bold;
         
     }
+    li{
+        display: inline;
+       
+        /*margin: 0 16px 0 16px;*/
+        margin: 0 16px;
+        
+    }
+    .link-menu{
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    /*  
+                         ooo               alien core
+                        o   o
+                         ooo
+                          o
+                          o
+                      ooooooooo
+                    o           o
+                   o             o
+                   o   o    o    o
+                   o      -      o
+                    o           o
+                      ooooooooo   
+                        ooooo
+                       ooooooo
+                      ooooooooo
+    */
